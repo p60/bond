@@ -1,0 +1,16 @@
+PATH
+  remote: .
+  specs:
+    bond (0.1.0)
+      rack-transaction
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rack-transaction (0.2.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bond!
