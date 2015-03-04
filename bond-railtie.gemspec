@@ -3,7 +3,7 @@ require File.expand_path('../lib/bond/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.author        = 'vyrak.bunleang@gmail.com'
-  gem.homepage      = 'https://github.com/p60/bond'
+  gem.homepage      = 'https://github.com/p60/bond-railtie'
   gem.description   = 'A convenient drop in Railtie for enabling Rack::Transaction'
   gem.summary       = 'A convenient drop in Railtie for enabling Rack::Transaction'
 
