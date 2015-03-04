@@ -9,9 +9,10 @@ Gem::Specification.new do |gem|
 
   gem.files         = `git ls-files`.split("\n")
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
-  gem.name          = 'bond'
+  gem.name          = 'bond-railtie'
   gem.require_paths = ["lib"]
   gem.version       = Bond::VERSION
 
+  gem.add_dependency 'rails'
   gem.add_dependency 'rack-transaction'
 end

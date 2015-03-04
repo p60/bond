@@ -9,7 +9,7 @@ configuring `Rack::Transaction` to work with `ActiveRecord` if available.
 Add this line to your Gemfile:
 
 ```ruby
-gem 'bond'
+gem 'bond-railtie'
 ```
 
 and bundle up.
