@@ -1,4 +1,5 @@
 require 'rails'
+require 'rack/transaction'
 
 module Bond
   def self.setup
@@ -15,5 +16,4 @@ module Bond
   end
 end
 
-require 'rack/transaction'
 require 'bond/railtie'
